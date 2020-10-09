@@ -1,6 +1,6 @@
 {
   "name": "paginate-over-sources",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "paginate-over-sources is a simple way to make a pagination on multiple sources",
   "main": "lib/index.js",
   "types": "lib",
