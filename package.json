@@ -1,0 +1,39 @@
+{
+  "name": "paginate-over-sources",
+  "version": "1.0.0",
+  "description": "paginate-over-sources is a simple way to make a pagination on multiple sources",
+  "main": "lib/index.js",
+  "types": "lib",
+  "scripts": {
+    "build": "tsc -p . && npm pack",
+    "test": "jest",
+    "coveralls": "jest --coverage && cat ./coverage/lcov.info | coveralls"
+  },
+  "keywords": [
+    "pagination",
+    "paginate",
+    "micro-services"
+  ],
+  "author": "Augustin de Latrollière",
+  "license": "ISC",
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com:augustindlt/paginate-over-sources.git"
+  },
+  "bugs": {
+    "url": "https://github.com/augustindlt/paginate-over-sources/issues"
+  },
+  "homepage": "https://github.com/augustindlt/paginate-over-sources#readme",
+  "devDependencies": {
+    "@babel/plugin-transform-runtime": "^7.11.5",
+    "@babel/preset-env": "^7.11.5",
+    "@babel/preset-typescript": "^7.10.4",
+    "@types/jest": "^26.0.14",
+    "@types/react": "^16.9.51",
+    "babel-jest": "^26.5.2",
+    "coveralls": "^3.1.0",
+    "jest": "^26.5.2",
+    "typescript": "^4.0.3"
+  },
+  "dependencies": {}
+}
