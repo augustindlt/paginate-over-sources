@@ -1,6 +1,8 @@
+import { TPagination, TPaginationPayloads } from "./paginate.types";
+
 const positiveNumber = (n: number) => (n < 0 ? 0 : n);
 
-const paginate = async <TItem = any>(
+export const paginate = async <TItem = any>(
   payloads: TPaginationPayloads<TItem>
 ): Promise<TPagination<TItem>> => {
   const { sources, limit, skip } = payloads;
@@ -41,5 +43,3 @@ const paginate = async <TItem = any>(
     totalItems,
   };
 };
-
-export default paginate;

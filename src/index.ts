@@ -1,1 +1,1 @@
-export * from "./paginate";
+export { paginate as default } from "./paginate";

@@ -1,4 +1,4 @@
-import paginate from "./paginate";
+import { paginate } from "./paginate";
 import { mockSources } from "./paginate.mocks";
 
 describe("paginate", () => {
