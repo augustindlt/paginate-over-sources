@@ -8,7 +8,7 @@ It can sometimes be tricky to make a proper pagination especially with data comi
 
 Thanks to this library, you'll achieve this in no time.
 
-This library can be use for infinite scroll purposes.
+This library can be used for infinite scroll purposes.
 
 ### What you can do with `paginate-over-sources` :
 
